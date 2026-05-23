@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <title>Pintu Portfolio</title>
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav>
+    <h2 class="logo">Portfolio</h2>
+
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+
+    <button id="theme-toggle">🌙</button>
+  </nav>
+
+  <!-- HERO SECTION -->
+  <!-- HERO SECTION -->
+<section id="home" class="hero">
+
+  <div class="hero-content">
+
+    <img
+      src="images/profile.webp"
+      alt="Profile Image"
+      class="profile-img"
+    >
+
+    <div class="hero-text">
+      <h1>Hello, I'm Pintu Kumar</h1>
+
+      <p>
+        Frontend Developer | Java Programmer
+      </p>
+
+      <a href="#projects" class="btn">
+        View Projects
+      </a>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="about">
+
+    <h2>About Me</h2>
+
+    <p>
+      I am a frontend developer passionate about
+      creating responsive websites and web apps.
+    </p>
+
+    <div class="skills">
+      <span>HTML</span>
+      <span>CSS</span>
+      <span>JavaScript</span>
+      <span>React</span>
+      <span>Java</span>
+      <span>GitHub</span>
+    </div>
+
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="projects">
+
+    <h2>Projects</h2>
+
+    <!-- FILTER BUTTONS -->
+    <div class="filters">
+      <button class="filter-btn" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="javascript">JavaScript</button>
+      <button class="filter-btn" data-filter="react">React</button>
+    </div>
+
+    <div class="project-container">
+
+      <div class="project-card javascript">
+        <img
+      src="images/car-exhibations.webp"
+      alt="Gym Website"
+      class="project-img"
+    >
+        <h3>Car-Exbihation</h3>
+
+        <p>
+          Responsive car website using HTML CSS JS.
+        </p>
+
+        <a href="https://github.com/pintu-kumar009/CAR-EXBIHATION">GitHub</a>
+      </div>
+
+      <div class="project-card react">
+        <img
+      src="images/to-do.webp"
+      alt="Currency Converter"
+      class="project-img"
+    >
+        <h3>to-do app</h3>
+
+        <p>
+         to-do using React API.
+        </p>
+
+        <a href="https://github.com/pintu-kumar009/To-do-app">GitHub</a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="contact">
+
+    <h2>Contact Me</h2>
+
+    <form>
+      <input type="text" placeholder="Your Name">
+
+      <input type="email" placeholder="Your Email">
+
+      <textarea placeholder="Message"></textarea>
+
+      <button type="submit">
+        Send
+      </button>
+    </form>
+
+  </section>
+
+  <script src="script.js"></script>
+
+
+  
+
+</body>
+</html>
